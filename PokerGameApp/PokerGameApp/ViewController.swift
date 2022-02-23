@@ -18,11 +18,11 @@ class ViewController: UIViewController {
         self.view.backgroundColor = UIColor(patternImage: background)
         var offset = 0
         // UIImageView를 7개 선언
-        for _ in 0..<7 {
-            createCard(XCoordinate: letfMargin + offset)
-            // 사이 간격 카드 하나보다 약간 넓게 조정
-            offset += SizeOfCard.width + 3
-        }
+//        for _ in 0..<7 {
+//            createCard(XCoordinate: letfMargin + offset)
+//            // 사이 간격 카드 하나보다 약간 넓게 조정
+//            offset += SizeOfCard.width + 3
+//        }
     }
     
     func createCard(XCoordinate: Int) {
